@@ -19,10 +19,6 @@ import SuspenseLazy from './components/examples/suspense/SuspenseLazy';
 const MainComp = () => {
     return (
         <div className="App">
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <h1 className="App-title">Welcome to React</h1>
-            </header>
             <BrowserRouter>
                 <div>
                     <ul>
@@ -54,4 +50,3 @@ const MainComp = () => {
 
 ReactDOM.render(<BrowserRouter><MainComp /></BrowserRouter>, document.getElementById('root'));
 registerServiceWorker();
-
