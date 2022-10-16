@@ -29,8 +29,9 @@ jobs:
         cache: 'npm'
     - name: Install dependencies and Deploy
       run: npm ci
-    - name: Set up git configs
+    - name: Set up global email
       run: git config --global user.email "<>"
+    - name: Set up global name
       run: git config --global user.name "Git Action Bot"
     - name: Deploy the app
       run: npm run deploy
