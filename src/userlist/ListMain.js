@@ -20,7 +20,6 @@ const ListMain = function(props){
       }]);
 
     const AddUserToCards = (data) => {
-        //console.log(data);
         setCards([
             ...cards,
             {
