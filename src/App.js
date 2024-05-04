@@ -17,7 +17,7 @@ import { BrowserRouter, NavLink, Switch, Route } from 'react-router-dom';
 
 const Home = () => {
   return <div className="App">
-  <h2>Game</h2>
+  <h2>Star Game</h2>
   <StarsMatch />
   <br/>
   <div>
